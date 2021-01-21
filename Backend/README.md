@@ -1,7 +1,9 @@
 1. Creer un sujet de discussion
 
 POST /subject-of-discussions HTTP/1.1
+
 Host: localhost:1337
+
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NCwiaWF0IjoxNjExMjM4NDYyLCJleHAiOjE2MTM4MzA0NjJ9.nHdAYA80MGuamVjfd5K9EEAO9WtKjAbATr64LL1utF4
 Content-Type: application/json
 Content-Length: 85
