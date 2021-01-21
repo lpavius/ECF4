@@ -6,11 +6,11 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NCwiaWF0IjoxN
 Content-Type: application/json
 Content-Length: 85
 
-{
+`{
     "title": "sujet test",
     "CreationDate": "2021-01-18",
     "id_user": 5
-}
+}`
 
 2. Créer un message associé à un sujet de discussion
 
@@ -20,12 +20,12 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NCwiaWF0IjoxN
 Content-Type: application/json
 Content-Length: 109
 
-{
+`{
     "content": "sujet test",
     "id_user": 4,
     "id_subject": 9,
     "creationDate": "2021-01-18"
-}
+}`
 
 3. Consulter un sujet de discussion
 
