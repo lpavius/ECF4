@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "subjects",
+  "info": {
+    "name": "SubjectOfDiscussions",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "CreationDate": {
+      "type": "date",
+      "required": true
+    },
+    "id_user": {
+      "columnName": "id_user",
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "messages": {
+      "via": "id_subject",
+      "collection": "messages"
+    }
+  }
+}
